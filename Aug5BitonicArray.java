@@ -5,6 +5,7 @@ public class Aug5BitonicArray {
 
     }
     static int bitonicArr(int[] arr){
+
         if(arr[0]<arr[arr.length-1]){
             return arr[0];
         }else {
